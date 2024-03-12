@@ -3,11 +3,8 @@ import csv
 import lxml
 from bs4 import BeautifulSoup
 
-
 dirname = os.path.dirname(__file__)
 path = os.path.join(dirname, 'force-app/main/default/connectedApps')
-
-# path = 'force-app/main/default/connectedApps'
 
 allConnectedApps = []
 attributes = ['label', 'description', 'contactEmail', 'consumerKey', 'certificate']
